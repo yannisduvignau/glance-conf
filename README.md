@@ -49,8 +49,8 @@ cd glance-conf
 To access and edit files from your computer via FTP:
 
 ```bash
-git clone https://github.com/yannisduvignau/setup_ftp_lxc.git
-cd setup_ftp_lxc
+git clone https://github.com/yannisduvignau/setup-ftp-lxc.git
+cd setup-ftp-lxc
 chmod +x setup_ftp_complete.sh
 ./setup_ftp_complete.sh
 ```
@@ -67,7 +67,7 @@ Set up FTPS (secure FTP):
 chmod +x setup_ftps.sh
 ./setup_ftps.sh
 cd ..
-rm -rf setup_ftp_lxc
+rm -rf setup-ftp-lxc
 ```
 
 ## Configuration
