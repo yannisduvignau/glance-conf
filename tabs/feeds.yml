@@ -1,0 +1,15 @@
+- name: Feeds
+  columns:
+    - size: small
+      widgets:
+        - type: calendar
+          first-day-of-week: monday
+    - size: full
+      widgets:
+        - type: search
+          search-engine: google
+        - $include: ../widgets/reddit-feed.yml
+        - $include: ../widgets/rss-feed.yml
+    - size: small
+      widgets:
+        - $include: ../widgets/weather.yml

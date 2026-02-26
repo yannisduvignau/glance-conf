@@ -1,0 +1,55 @@
+theme:
+  # ============================================
+  # =   Dark
+  # ============================================
+  # Teal City ------------------------
+  - $include: themes/dark/teal_city.yml
+
+  # Catppuccin Frappe ------------------------
+  # - $include: themes/dark/catppuccin_frappe.yml
+
+  # Catppuccin Macchiato ------------------------
+  # - $include: themes/dark/catppuccin_macchiato.yml
+
+  # Catppuccin Mocha ------------------------
+  # - $include: themes/dark/catppuccin_mocha.yml
+
+  # Camouflage ------------------------
+  # - $include: themes/dark/camouflage.yml
+
+  # Gruvbox Dark ------------------------
+  # - $include: themes/dark/gruvbox_dark.yml
+
+  # Kanagawa Dark ------------------------
+  # - $include: themes/dark/kanagawa_dark.yml
+
+  # Tucan ------------------------
+  # - $include: themes/dark/tucan.yml
+
+  # Dracula ------------------------
+  # - $include: themes/dark/dracula.yml
+
+  # Shades of Purple ------------------------
+  # - $include: themes/dark/shades_of_purple.yml
+
+  # Neon Pink ------------------------
+  # - $include: themes/dark/neon_pink.yml
+
+  # ============================================
+  # =   Light
+  # ============================================
+  # Catppuccin Latte ------------------------
+  # - $include: themes/light/catppuccin_latte.yml
+
+  # Peachy ------------------------
+  # - $include: themes/light/peachy.yml
+
+  # Zebra ------------------------
+  # - $include: themes/light/zebra.yml
+  
+pages:
+  - $include: tabs/homelab.yml
+  - $include: tabs/medias.yml
+  - $include: tabs/feeds.yml
+branding:
+  logo-text: "root@yduvignau:~#"

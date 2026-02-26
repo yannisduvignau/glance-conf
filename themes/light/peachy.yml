@@ -1,0 +1,6 @@
+light: true
+background-color: 28 40 77
+primary-color: 155 100 20
+negative-color: 0 100 60
+contrast-multiplier: 1.1
+text-saturation-multiplier: 0.5

@@ -1,0 +1,12 @@
+- type: rss
+  limit: 10
+  style: detailed-list
+  collapse-after: 3
+  cache: 12h
+  feeds:
+    - url: https://omgubuntu.co.uk/feed
+      title: OmgUbuntu
+      limit: 4
+    - url: https://9to5linux.com/feed/atom
+      title: 9to5Linux
+      limit: 4

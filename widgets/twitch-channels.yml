@@ -1,0 +1,4 @@
+- type: twitch-channels
+  channels:
+    - technotim
+    - piratesoftware

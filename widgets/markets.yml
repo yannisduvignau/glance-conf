@@ -1,0 +1,13 @@
+- type: markets
+  # The link to go to when clicking on the symbol in the UI,
+  # {SYMBOL} will be substituded with the symbol for each market
+  symbol-link-template: https://www.tradingview.com/symbols/{SYMBOL}/news
+  markets:
+    - symbol: LTC-USD
+      name: Litecoin
+    - symbol: XRP-USD
+      name: Ripple
+    - symbol: AAPL
+      name: Apple
+    - symbol: MSFT
+      name: Microsoft

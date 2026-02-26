@@ -1,0 +1,6 @@
+- type: weather
+  location: 40630
+  units: metric
+  hour-format: 24h
+  # Optionally hide the location from being displayed in the widget
+  # hide-location: true

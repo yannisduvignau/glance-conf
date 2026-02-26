@@ -1,0 +1,23 @@
+- type: group
+  widgets:
+    - type: reddit
+      subreddit: technology
+      show-thumbnails: true
+    - type: reddit
+      subreddit: selfhosted
+      show-thumbnails: true
+    - type: reddit
+      subreddit: linux
+      show-thumbnails: true
+    - type: reddit
+      subreddit: sysadmin
+      show-thumbnails: true
+    - type: reddit
+      subreddit: DevOps
+      show-thumbnails: true
+    - type: reddit
+      subreddit: Networking
+      show-thumbnails: true
+    - type: reddit
+      subreddit: Privacy
+      show-thumbnails: true
