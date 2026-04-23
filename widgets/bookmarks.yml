@@ -1,11 +1,58 @@
 - type: bookmarks
   groups:
-    - links:
-        - title: Proxmox Scripts
-          url: https://community-scripts.github.io/ProxmoxVE/
-        - title: Tailscale 
-          url: https://login.tailscale.com/admin/machines
-        - title: Freebox
-          url: https://mafreebox.freebox.fr/#Fbx.os.app.lanbrowser.app
-        - title: S3 Glacier
-          url: https://eu-west-1.signin.aws.amazon.com/oauth?client_id=arn:aws:signin:::console/glacier&code_challenge=i5Q-UedxMfXsw28KYRVKErFk_YwIo0yyda86pK0eozI&code_challenge_method=SHA-256&response_type=code&redirect_uri=https://eu-west-1.console.aws.amazon.com/glacier/home?hashArgs%3D%2523%252Fvaults%26isauthcode%3Dtrue%26oauthStart%3D1744918744869%26region%3Deu-west-1%26state%3DhashArgsFromTB_eu-west-1_3da6eea788e67b95
+    # - title: Infrastructure
+    #   links:
+    #     - title: Proxmox Node1
+    #       url: https://192.168.182.212:8006
+    #       icon: di:proxmox
+    #     - title: Proxmox Node2
+    #       url: https://192.168.182.252:8006
+    #       icon: di:proxmox
+    #     - title: Proxmox Node3
+    #       url: https://192.168.182.253:8006
+    #       icon: di:proxmox
+    #     - title: OPNsense
+    #       url: https://10.40.0.1
+    #       icon: di:opnsense
+    # - title: Services
+    #   links:
+    #     - title: Pi-hole
+    #       url: http://10.40.0.53/admin
+    #       icon: di:pi-hole
+    #     - title: Uptime Kuma
+    #       url: http://10.40.0.4:3001
+    #       icon: di:uptime-kuma
+    #     - title: Traefik
+    #       url: http://10.10.0.30:8080
+    #       icon: di:traefik
+    #     - title: Glance
+    #       url: http://10.40.0.2:8080
+    #       icon: di:glance-light
+    # - title: Media
+    #   links:
+    #     - title: Jellyfin
+    #       url: http://10.40.0.40:8096
+    #       icon: di:jellyfin
+    #     - title: Sonarr
+    #       url: http://sonarr:8989
+    #       icon: di:sonarr
+    #     - title: Radarr
+    #       url: http://radarr:7878
+    #       icon: di:radarr
+    #     - title: qBittorrent
+    #       url: http://10.30.0.10:8080
+    #       icon: di:qbittorrent
+    - title: Outils
+      links:
+        - title: GitHub
+          url: https://github.com
+          icon: di:github-light
+        - title: Cloudflare
+          url: https://dash.cloudflare.com
+          icon: di:cloudflare
+        - title: Claude
+          url: https://claude.ai
+          icon: si:anthropic
+        - title: ChatGPT
+          url: https://chat.openai.com
+          icon: si:openai

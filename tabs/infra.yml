@@ -1,0 +1,11 @@
+- name: Infra
+  columns:
+    - size: small
+      widgets:
+        - $include: ../widgets/myspeed.yml
+        - $include: ../widgets/pihole.yml
+    - size: full
+      widgets:
+        - $include: ../widgets/proxmox.yml
+        - $include: ../widgets/tailscale.yml
+

@@ -4,8 +4,7 @@
       widgets: 
         - $include: ../widgets/plex-watching.yml
         - $include: ../widgets/sonarr.yml
-        
+        - $include: ../widgets/plex-history.yml
     - size: full
       widgets:
-        - $include: ../widgets/plex-history.yml
         - $include: ../widgets/yt-videos.yml

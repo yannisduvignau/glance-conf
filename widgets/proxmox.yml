@@ -1,7 +1,7 @@
 - type: custom-api
   title: Proxmox
   cache: 1m
-  url: https://192.168.1.80:8006/api2/json/cluster/resources
+  url: https://192.168.182.252:8006/api2/json/cluster/resources
   allow-insecure: true
   headers:
     Accept: application/json

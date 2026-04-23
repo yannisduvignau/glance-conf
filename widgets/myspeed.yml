@@ -1,7 +1,7 @@
 - type: custom-api
   cache: 1h
   title: Internet Speed
-  url: http://192.168.1.167:5216/api/speedtests?hours=24
+  url: http://10.40.0.3:5216/api/speedtests?hours=24
   template: |
     <div class="flex justify-between text-center margin-block-3">
         <div>

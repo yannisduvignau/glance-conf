@@ -49,6 +49,7 @@ theme:
   
 pages:
   - $include: tabs/homelab.yml
+  - $include: tabs/infra.yml
   - $include: tabs/medias.yml
   - $include: tabs/feeds.yml
 branding:

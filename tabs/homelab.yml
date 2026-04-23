@@ -2,17 +2,8 @@
   columns:
     - size: small
       widgets:
-        - $include: ../widgets/proxmox.yml
-        - $include: ../widgets/synology.yml
-        - $include: ../widgets/plex-watching.yml  
-        
+        - $include: ../widgets/myspeed.yml
+        - $include: ../widgets/bookmarks.yml
     - size: full
       widgets:
         - $include: ../widgets/monitors.yml
-
-    - size: small
-      widgets:
-        - $include: ../widgets/myspeed.yml
-        - $include: ../widgets/pihole.yml
-        - $include: ../widgets/bookmarks.yml
-        - $include: ../widgets/tailscale.yml
